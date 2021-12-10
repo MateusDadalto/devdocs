@@ -41,7 +41,7 @@ The following example creates a gift registry.
 mutation {
   createGiftRegistry(
     giftRegistry: {
-      giftRegistryTypeUid: "Mw=="
+      gift_registry_type_uid: "Mw=="
       event_name: "Bill and Julie's wedding"
       message: "Help us celebrate Bill and Julie's wedding, which will be held on May 1, 2021"
       privacy_settings: PRIVATE
